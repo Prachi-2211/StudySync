@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Navbar } from "../components/Navbar";
+import { Navbar } from "../Components/Navbar";
 import { supabase } from "../services/supabase";
 import { useAuth } from "../context/AuthContext";
 
