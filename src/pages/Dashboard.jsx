@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
-import { Navbar } from "../components/Navbar";
+import { Navbar } from "../Components/Navbar";
 import { Link } from "react-router-dom";
 import { supabase } from "../services/supabase";
-import { useAuth } from "../context/AuthContext";
+import { useAuth } from "../Context/AuthContext";
 
 export default function Dashboard() {
   const { user } = useAuth();
