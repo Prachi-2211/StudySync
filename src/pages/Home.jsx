@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
-import { Navbar } from "../components/Navbar";
-import { useAuth } from "../context/AuthContext";
+import { Navbar } from "../Components/Navbar";
+import { useAuth } from "../Context/AuthContext";
 
 export function Home() {
 
