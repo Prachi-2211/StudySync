@@ -10,8 +10,8 @@ import AI from "./pages/AI";
 import Contact from "./pages/Contact";
 import Profile from "./pages/Profile";
 
-import ProtectedRoute from "./components/ProtectedRoute";
-import Footer from "./components/Footer"
+import ProtectedRoute from "./Components/ProtectedRoute";
+import Footer from "./Components/Footer"
 
 
 
